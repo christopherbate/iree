@@ -642,7 +642,7 @@ SPIR-V binary.
 [ConvertToGPU]: https://github.com/google/iree/blob/main/iree/compiler/Conversion/LinalgToSPIRV/ConvertToGPUPass.cpp
 [ConvertToSPIRV]: https://github.com/google/iree/blob/main/iree/compiler/Conversion/LinalgToSPIRV/ConvertToSPIRVPass.cpp
 [DotAfterAll]: https://gist.github.com/MaheshRavishankar/9e2d406296f469515c4a79bf1e7eef44
-[GPUToSPIRV]: https://github.com/llvm/llvm-project/blob/master/mlir/include/mlir/Conversion/GPUToSPIRV/ConvertGPUToSPIRV.h
+[GPUToSPIRV]: https://github.com/llvm/llvm-project/blob/main/mlir/include/mlir/Conversion/GPUToSPIRV/GPUToSPIRV.h
 [HLOToLinalgPass]: https://github.com/tensorflow/tensorflow/blob/75c40f6bff2faa3d90a375dfa4025b2e6e2d7a3d/tensorflow/compiler/mlir/xla/transforms/passes.h#L67
 [LinalgDialect]: https://mlir.llvm.org/docs/Dialects/Linalg/
 [LinalgFusionOnBuffers]: https://github.com/llvm/llvm-project/blob/ef868a848e6def288d2df7a1b3ebe09463afc8d0/mlir/include/mlir/Dialect/Linalg/Utils/Utils.h#L86
@@ -651,9 +651,9 @@ SPIR-V binary.
 [LinalgRationale]: https://mlir.llvm.org/docs/Rationale/RationaleLinalgDialect/
 [LinalgTileAndFuse]: https://github.com/google/iree/blob/main/iree/compiler/Conversion/LinalgToSPIRV/LinalgTileAndFusePass.cpp
 [LinalgTiling]: https://mlir.llvm.org/docs/Dialects/Linalg/#set-of-key-transformationsa-namekey_transformationsa
-[LinalgTilingPatterns]: https://github.com/llvm/llvm-project/blob/master/mlir/include/mlir/Dialect/Linalg/Transforms/Transforms.h
+[LinalgTilingPatterns]: https://github.com/llvm/llvm-project/blob/main/mlir/include/mlir/Dialect/Linalg/Transforms/Transforms.h
 [NVVMAddressSpace]: https://docs.nvidia.com/cuda/nvvm-ir-spec/index.html#address-space
 [PwAfterAll]: https://gist.github.com/MaheshRavishankar/02cdd22f7c99e568f933244b5a679510
-[SCFToSPIRV]: https://github.com/llvm/llvm-project/blob/master/mlir/include/mlir/Conversion/SCFToSPIRV/SCFToSPIRV.h
+[SCFToSPIRV]: https://github.com/llvm/llvm-project/blob/main/mlir/include/mlir/Conversion/SCFToSPIRV/SCFToSPIRV.h
 [SpirvSerialization]: https://mlir.llvm.org/docs/Dialects/SPIR-V/#serialization-and-deserialization
-[StandardToSPIRV]: https://github.com/llvm/llvm-project/blob/master/mlir/include/mlir/Conversion/StandardToSPIRV/ConvertStandardToSPIRV.h
+[StandardToSPIRV]: https://github.com/llvm/llvm-project/blob/main/mlir/include/mlir/Conversion/StandardToSPIRV/StandardToSPIRV.h
